@@ -1,0 +1,455 @@
+{
+  "id" : "h9gi-nx95",
+  "name" : "NYPD Motor Vehicle Collisions",
+  "attribution" : "Police Department (NYPD)",
+  "averageRating" : 0,
+  "category" : "Public Safety",
+  "createdAt" : 1398703304,
+  "description" : "This is a breakdown of every collision in NYC by location and injury. This data is collected because the NYC Council passed Local Law #11 in 2011. This data is manually run every month and reviewed by the TrafficStat Unit before being posted on the NYPD website.  Each record represents a collision in NYC by city, borough, precinct and cross street. This data can be used by the public to see how dangerous/safe intersections are in NYC. The information is presented in pdf and excel format to allow the casual user to just view the information in the easy to read pdf format or use the excel files to do a more in-depth analysis.",
+  "displayType" : "table",
+  "downloadCount" : 40393,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+  "indexUpdatedAt" : 1540273543,
+  "newBackend" : false,
+  "numberOfComments" : 36,
+  "oid" : 29959689,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1540259078,
+  "publicationGroup" : 1561483,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 379809580,
+  "rowsUpdatedAt" : 1540257688,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 15605949,
+  "totalTimesRated" : 0,
+  "viewCount" : 134577,
+  "viewLastModified" : 1540259078,
+  "viewType" : "tabular",
+  "columns" : [ {
+    "id" : 379809555,
+    "name" : "DATE",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "date",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 19436653,
+    "width" : 148,
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809556,
+    "name" : "TIME",
+    "dataTypeName" : "text",
+    "fieldName" : "time",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436654,
+    "width" : 148,
+    "format" : { }
+  }, {
+    "id" : 379809557,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "fieldName" : "borough",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436655,
+    "width" : 184,
+    "format" : { }
+  }, {
+    "id" : 379809558,
+    "name" : "ZIP CODE",
+    "dataTypeName" : "text",
+    "fieldName" : "zip_code",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436656,
+    "width" : 196,
+    "format" : { }
+  }, {
+    "id" : 379809559,
+    "name" : "LATITUDE",
+    "dataTypeName" : "number",
+    "fieldName" : "latitude",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436657,
+    "width" : 196,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809560,
+    "name" : "LONGITUDE",
+    "dataTypeName" : "number",
+    "fieldName" : "longitude",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436658,
+    "width" : 208,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809561,
+    "name" : "LOCATION",
+    "dataTypeName" : "location",
+    "fieldName" : "location",
+    "position" : 7,
+    "renderTypeName" : "location",
+    "tableColumnId" : 19687829,
+    "width" : 143,
+    "format" : {
+      "view" : "address_coords",
+      "align" : "left"
+    },
+    "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+  }, {
+    "id" : 379809563,
+    "name" : "ON STREET NAME",
+    "dataTypeName" : "text",
+    "fieldName" : "on_street_name",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436659,
+    "width" : 268,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809564,
+    "name" : "CROSS STREET NAME",
+    "dataTypeName" : "text",
+    "fieldName" : "off_street_name",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436660,
+    "width" : 281,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809565,
+    "name" : "OFF STREET NAME",
+    "dataTypeName" : "text",
+    "fieldName" : "cross_street_name",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436661,
+    "width" : 304,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809566,
+    "name" : "NUMBER OF PERSONS INJURED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_persons_injured",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436662,
+    "width" : 400,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809567,
+    "name" : "NUMBER OF PERSONS KILLED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_persons_killed",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436663,
+    "width" : 388,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809568,
+    "name" : "NUMBER OF PEDESTRIANS INJURED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_pedestrians_injured",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436664,
+    "width" : 448,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809569,
+    "name" : "NUMBER OF PEDESTRIANS KILLED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_pedestrians_killed",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436665,
+    "width" : 436,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809570,
+    "name" : "NUMBER OF CYCLIST INJURED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_cyclist_injured",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436666,
+    "width" : 400,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809571,
+    "name" : "NUMBER OF CYCLIST KILLED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_cyclist_killed",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436667,
+    "width" : 388,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809572,
+    "name" : "NUMBER OF MOTORIST INJURED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_motorist_injured",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436668,
+    "width" : 412,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809574,
+    "name" : "NUMBER OF MOTORIST KILLED",
+    "dataTypeName" : "number",
+    "fieldName" : "number_of_motorist_killed",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19436669,
+    "width" : 400,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809575,
+    "name" : "CONTRIBUTING FACTOR VEHICLE 1",
+    "dataTypeName" : "text",
+    "fieldName" : "contributing_factor_vehicle_1",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436670,
+    "width" : 448,
+    "format" : { }
+  }, {
+    "id" : 379809576,
+    "name" : "CONTRIBUTING FACTOR VEHICLE 2",
+    "dataTypeName" : "text",
+    "fieldName" : "contributing_factor_vehicle_2",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436671,
+    "width" : 448,
+    "format" : { }
+  }, {
+    "id" : 379809577,
+    "name" : "CONTRIBUTING FACTOR VEHICLE 3",
+    "dataTypeName" : "text",
+    "fieldName" : "contributing_factor_vehicle_3",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436672,
+    "width" : 448,
+    "format" : { }
+  }, {
+    "id" : 379809578,
+    "name" : "CONTRIBUTING FACTOR VEHICLE 4",
+    "dataTypeName" : "text",
+    "fieldName" : "contributing_factor_vehicle_4",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436673,
+    "width" : 448,
+    "format" : { }
+  }, {
+    "id" : 379809579,
+    "name" : "CONTRIBUTING FACTOR VEHICLE 5",
+    "dataTypeName" : "text",
+    "fieldName" : "contributing_factor_vehicle_5",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 19436674,
+    "width" : 448,
+    "format" : { }
+  }, {
+    "id" : 379809580,
+    "name" : "UNIQUE KEY",
+    "dataTypeName" : "number",
+    "fieldName" : "unique_key",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 19564287,
+    "width" : 100,
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809581,
+    "name" : "VEHICLE TYPE CODE 1",
+    "dataTypeName" : "text",
+    "fieldName" : "vehicle_type_code1",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 21537789,
+    "width" : 145,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809582,
+    "name" : "VEHICLE TYPE CODE 2",
+    "dataTypeName" : "text",
+    "fieldName" : "vehicle_type_code2",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 21537809,
+    "width" : 133,
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 379809584,
+    "name" : "VEHICLE TYPE CODE 3",
+    "dataTypeName" : "text",
+    "fieldName" : "vehicle_type_code_3",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 21537886,
+    "width" : 125,
+    "format" : { }
+  }, {
+    "id" : 379809585,
+    "name" : "VEHICLE TYPE CODE 4",
+    "dataTypeName" : "text",
+    "fieldName" : "vehicle_type_code_4",
+    "position" : 28,
+    "renderTypeName" : "text",
+    "tableColumnId" : 21537900,
+    "width" : 127,
+    "format" : { }
+  }, {
+    "id" : 379809586,
+    "name" : "VEHICLE TYPE CODE 5",
+    "dataTypeName" : "text",
+    "fieldName" : "vehicle_type_code_5",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 21537975,
+    "width" : 128,
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "ascending" : false,
+        "columnFieldName" : "date"
+      } ]
+    },
+    "rdfSubject" : "0",
+    "attachments" : [ {
+      "filename" : "Collision_DataDictionary.xlsx",
+      "assetId" : "b5fd8e71-ca48-4e96-bf63-1b8a7c4cc47b",
+      "name" : "NYPD_Collision_DataDictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "5/7/2014",
+        "Update Frequency" : "Weekdays"
+      },
+      "Legislative Compliance" : {
+        "Geo-coding Attached?" : ""
+      },
+      "Dataset Information" : {
+        "Agency" : "Police Department (NYPD)"
+      }
+    },
+    "rowIdentifier" : 379809580,
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 379809555,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero", "nycopendata", "traffic data" ],
+  "flags" : [ "default", "restorable", "restorePossibleForType" ]
+}
